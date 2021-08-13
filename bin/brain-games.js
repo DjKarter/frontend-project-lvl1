@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
+import { helloUser } from '../src/cli.js';
 
-const cl = (str) => console.log(str);
-cl(`Welcome to Brain Games!`);
+helloUser();
