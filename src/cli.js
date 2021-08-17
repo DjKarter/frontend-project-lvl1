@@ -53,7 +53,7 @@ export const evenGame = () => {
     iter += 1;
   }
 
-  console.log((iter === 3) ? `Congratulations, ${name}` : `'${ans}' is wrong answer ;(. Correct answer was ${temp}.\nLet's try again, ${name}!`);
+  console.log((iter === 3) ? `Congratulations, ${name}!` : `'${ans}' is wrong answer ;(. Correct answer was '${temp}'.\nLet's try again, ${name}!`);
 };
 
 export const calcGame = () => {
@@ -90,7 +90,7 @@ export const calcGame = () => {
     iter += 1;
   }
 
-  console.log((iter === 3) ? `Congratulations, ${name}!` : `'${ansStr}' is wrong answer ;(. Correct answer was ${res}.\nLet's try again, ${name}!`);
+  console.log((iter === 3) ? `Congratulations, ${name}!` : `'${ansStr}' is wrong answer ;(. Correct answer was '${res}'.\nLet's try again, ${name}!`);
 };
 
 export const nodGame = () => {
@@ -111,7 +111,7 @@ export const nodGame = () => {
     iter += 1;
   }
 
-  console.log((iter === 3) ? `Congratulations, ${name}!` : `'${ansStr}' is wrong answer ;(. Correct answer was ${res}.\nLet's try again, ${name}!`);
+  console.log((iter === 3) ? `Congratulations, ${name}!` : `'${ansStr}' is wrong answer ;(. Correct answer was '${res}'.\nLet's try again, ${name}!`);
 };
 
 export const progresssionGame = () => {
@@ -141,7 +141,7 @@ export const progresssionGame = () => {
     iter += 1;
   }
 
-  console.log((iter === 3) ? `Congratulations, ${name}!` : `'${ansStr}' is wrong answer ;(. Correct answer was ${res}.\nLet's try again, ${name}!`);
+  console.log((iter === 3) ? `Congratulations, ${name}!` : `'${ansStr}' is wrong answer ;(. Correct answer was '${res}'.\nLet's try again, ${name}!`);
 };
 
 export const primeGame = () => {
@@ -159,5 +159,5 @@ export const primeGame = () => {
     iter += 1;
   }
 
-  console.log((iter === 3) ? `Congratulations, ${name}!` : `'${ansStr}' is wrong answer ;(. Correct answer was ${isPrime(res) ? 'yes' : 'no'}.\nLet's try again, ${name}!`);
+  console.log((iter === 3) ? `Congratulations, ${name}!` : `'${ansStr}' is wrong answer ;(. Correct answer was '${isPrime(res) ? 'yes' : 'no'}'.\nLet's try again, ${name}!`);
 };
