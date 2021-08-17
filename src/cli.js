@@ -8,10 +8,10 @@ let ansStr;
 let res;
 
 const NOD = (num1, num2) => {
-  let temp1 = num1; let
-temp2 = num2;
+  let temp1 = num1;
+  let temp2 = num2;
   while (temp1 % temp2 !== 0) {
-        [temp1, temp2] = [temp2, (temp1 % temp2)];
+    [temp1, temp2] = [temp2, (temp1 % temp2)];
   }
 
   return temp2;
@@ -42,7 +42,7 @@ export const gameStart = (rules = 'gg') => {
 export const evenGame = () => {
   while (iter !== 3) {
     const rand = Math.floor(Math.random() * 100);
-     ans = readlineSync.question(`Question: ${rand}\nYour answer: `);
+    ans = readlineSync.question(`Question: ${rand}\nYour answer: `);
 
     if (ans === (rand % 2 ? 'no' : 'yes')) {
       console.log('Correct!');
